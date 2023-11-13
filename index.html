@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablist</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="tab">
+      <button class="link" onclick=" showArticle(event, 'Protein')">Protein</button>
+      <button class="link" onclick=" showArticle(event, 'Karbonhidrat')">Karbonhidrat</button>
+      <button class="link" onclick=" showArticle(event, 'Yag')">Yağ</button>
+    </div>
+
+    <!--Content içerik-->
+    <div id="Protein" class="tabcontent">
+      <h2>Protein</h2>
+      <p>
+        Proteinler, vücudumuza enerji sağlayan besin öğelerinden bir tanesidir.
+        Bir gramı yaklaşık 4 kcal enerji sağlar. Hücre büyümesini ve gelişmesini
+        sağlayan protein, vücut tarafından üretilmediği için dışarıdan alınması
+        gereklidir. Vücuda alınan proteinler esas olarak enerji oluşturmak için
+        kullanılmazlar. Onların asıl işlevi, vücuttaki dokuları oluşturmak ve
+        gerektiğinde dokuların tamirini sağlamaktır. Kasları güçlendirir,
+        kansızlığı önler, vücut direncini yüksek tutar. Günlük olarak
+        cildimizin, tırnaklarımızın, saçlarımızın ve kas dokularımızın
+        yenilenmesine destek olur.
+      </p>
+    </div>
+    <div id="Karbonhidrat" class="tabcontent">
+      <h2>Karbonhidrat</h2>
+      <p>
+        Karbonhidratlar, besinlerimizde en çok bulunan besin öğesidir. Normal
+        beslenen yetişkinlerde günlük enerjinin yüzde 55-60’ı karbonhidratlardan
+        sağlanır. Kişisel ayrıcalıklar da düşünülürse, en azından günlük diyette
+        100-125 gram karbonhidrat bulunmalıdır. Bu da yaklaşık 400- 500
+        kalorilik enerji verir. 1 gram karbonhidrat, yaklaşık 4 kcal enerji
+        verir. Karbonhidratlar vücudumuzun temel enerji kaynağıdır özellikle
+        beynimiz çalışmak için glikoza ihtiyaç duyar ve bu ihtiyaç
+        karbonhidratlardan elde edilir. Karbonhidratı sıfırladığınız bir diyette
+        vücut karbonhidrat deposu olan kasları enerji kaynağı olarak kullanır ve
+        kas kaybı meydana gelir, siz yağ yaktığınızı zannederken aslında kilo
+        kaybınızın nedeni kas ve su kaybı olabilir.
+      </p>
+    </div>
+    <div id="Yag" class="tabcontent">
+      <h2>Yağ</h2>
+      <p>
+        Yağlar vücudumuz için gerekli olan enerjinin en önemli
+        kaynaklarındandır. Her bir gram yağda 9 kcal bulunur. Önerilen günlük
+        yağ alımı günlük gereksinim olan kalorinin % 25-35’ini karşılayacak
+        miktarlarda olmalıdır. Yağlar, yağ asitlerinden oluşurlar. Doymuş yağ
+        asitleri ile tekli doymamış yağ asitleri vücudumuz tarafından sentez
+        edilirler. Ancak vücudumuzda çoklu doymamış yağ asitlerinin (omega-6 ve
+        omega-3) sentezi gerçekleşememektedir. Çoklu doymamış yağ asitleri,
+        elzem olmaları açısından büyük önem taşırlar. Bu yağ asitlerinin mutlaka
+        besinlerle dışarıdan alınması gerekir.
+      </p>
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
